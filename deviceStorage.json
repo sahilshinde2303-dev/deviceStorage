@@ -207,7 +207,7 @@
       "cookieRefresh": true,
       "domain": "*.pubmatic.com",
       "purposes": [],
-      "optout": true
+      "optOut": true
     },
     {
       "identifier": "PUBMDCID",
