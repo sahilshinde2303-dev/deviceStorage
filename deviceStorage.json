@@ -413,11 +413,11 @@
   "sdks": [
     {
      "name" : "com.pubmatic.sdk:openwrap",
-     "use" : "Android Advertising"
+     "use" : ""
     },
     {
      "name" : "com.pubmatic.openwrapsdk",
-     "use" : "iOS Advertising"
+     "use" : ""
     }
   ]
 }
