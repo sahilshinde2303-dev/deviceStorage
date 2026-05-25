@@ -412,7 +412,7 @@
   ],
   "sdks": [
     {
-     "name" : "com.pubmatic.sdk:openwrap",
+     "name" : "com.pubmatic.sdk",
      "use" : ""
     },
     {
