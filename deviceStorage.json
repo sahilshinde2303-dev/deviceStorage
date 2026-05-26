@@ -43,7 +43,7 @@
     {
       "identifier": "KCCH",
       "type": "cookie",
-      "maxAgeSeconds": 30,
+      "maxAgeSeconds": 3,
       "cookieRefresh": true,
       "domain": "*.ads.pubmatic.com",
       "purposes": [1]
@@ -83,7 +83,7 @@
     {
       "identifier": "KTPCACOOKIE",
       "type": "cookie",
-      "maxAgeSeconds": 86400,
+      "maxAgeSeconds": 7776000,
       "cookieRefresh": true,
       "domain": "*.pubmatic.com",
       "purposes": [1]
@@ -115,7 +115,7 @@
     {
       "identifier": "PMFREQ_ON",
       "type": "cookie",
-      "maxAgeSeconds": 2,
+      "maxAgeSeconds": 86400,
       "cookieRefresh": true,
       "domain": "*.ads.pubmatic.com",
       "purposes": [1]
@@ -171,7 +171,7 @@
     {
       "identifier": "pi",
       "type": "cookie",
-      "maxAgeSeconds": 8,
+      "maxAgeSeconds": 86400,
       "cookieRefresh": true,
       "domain": "*.pubmatic.com",
       "purposes": [1]
@@ -203,7 +203,7 @@
     {
       "identifier": "optout",
       "type": "cookie",
-      "maxAgeSeconds": 157852800,
+      "maxAgeSeconds": 34473600,
       "cookieRefresh": true,
       "domain": "*.pubmatic.com",
       "purposes": [],
@@ -366,6 +366,14 @@
       "purposes": [1]
     },
     {
+      "identifier": "pubsyncexp",
+      "type": "cookie",
+      "maxAgeSeconds": 86400,
+      "cookieRefresh": true,
+      "domain": "*.ads.pubmatic.com",
+      "purposes": [1]
+    },
+    {
       "identifier": "PubMatic",
       "type": "web",
       "domain": "*.ads.pubmatic.com",
@@ -381,6 +389,12 @@
       "identifier": "PubMatic_GPP",
       "type": "web",
       "domain": "*.ads.pubmatic.com",
+      "purposes": [1]
+    },
+    {
+      "identifier": "uinfo",
+      "type": "web",
+      "domain": "*.pubmatic.com",
       "purposes": [1]
     },
     {
@@ -412,12 +426,12 @@
   ],
   "sdks": [
     {
-     "name" : "com.pubmatic.sdk",
-     "use" : ""
+      "name": "com.pubmatic.sdk",
+      "use": ""
     },
     {
-     "name" : "com.pubmatic.openwrapsdk",
-     "use" : ""
+      "name": "com.pubmatic.openwrapsdk",
+      "use": ""
     }
   ]
 }
