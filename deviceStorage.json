@@ -43,7 +43,7 @@
     {
       "identifier": "KCCH",
       "type": "cookie",
-      "maxAgeSeconds": 3,
+      "maxAgeSeconds": 86400,
       "cookieRefresh": true,
       "domain": "*.ads.pubmatic.com",
       "purposes": [1]
@@ -203,7 +203,7 @@
     {
       "identifier": "optout",
       "type": "cookie",
-      "maxAgeSeconds": 34473600,
+      "maxAgeSeconds": 157852800,
       "cookieRefresh": true,
       "domain": "*.pubmatic.com",
       "purposes": [],
@@ -424,14 +424,5 @@
       "use": ""
     }
   ],
-  "sdks": [
-    {
-      "name": "com.pubmatic.sdk",
-      "use": ""
-    },
-    {
-      "name": "com.pubmatic.openwrapsdk",
-      "use": ""
-    }
-  ]
+  "sdks": []
 }
