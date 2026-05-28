@@ -424,5 +424,17 @@
       "use": ""
     }
   ],
-  "sdks": []
+  "sdks": [
+    {
+      "name": "com.pubmatic.sdk:openwrap",
+
+      "use": "Accesses CMP consent data from device storage and transmits ad requests to PubMatic ad server"
+    },
+
+    {
+      "name": "com.pubmatic.openwrapsdk",
+
+      "use": "Accesses CMP consent data from device storage and transmits ad requests to PubMatic ad server"
+    }
+  ]
 }
